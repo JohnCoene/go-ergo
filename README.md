@@ -17,7 +17,7 @@ A great bet on the surface.
 > 
 > -- [Rory Sutherland](https://twitter.com/rorysutherland)
 
-While collective wealth increases by 5% (compounds) at every coin flip, the vast majority of players end up skint with only few big winners; wealth aggregation. It's by no means a representation of a the real world, but Ole Peters uses it to demonstrate the difference between _ensemble average_ and _time average_ (and how economics does not understand that).
+While collective wealth increases by 5% (compounds) at every coin flip, the vast majority of players end up skint with only few big winners; wealth aggregation (though ultimately it's a zero sum gain). It's by no means a representation of a the real world, but Ole Peters uses it to demonstrate the difference between _ensemble average_ and _time average_ (and how economics does not understand that).
 
 ```go
 package main
