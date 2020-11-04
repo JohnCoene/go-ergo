@@ -1,3 +1,5 @@
+[![](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/JohnCoene/go-ergo?tab=overview)
+
 # Ergodicity Economics
 
 Reproduction of a an experiment by [Ole Peters](https://ergodicityeconomics.com/) on wealth distribution and accumulation; case against GDP.
