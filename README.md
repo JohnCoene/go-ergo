@@ -22,12 +22,13 @@ While collective wealth increases by 5% (compounds) at every coin flip, the vast
 ```go
 package main
 
-import "github.com/JohnCoene/go-ergo"
+import "github.com/JohnCoene/go-ergo/ergo"
 
 func main(){
-  // 50 players, 100 coin tosses
-  g := ergo.Play(50, 100)
+  // 50 players, 100 coin tosses, each starting with $1,000
+  g := ergo.Play(50, 100, 1000)
 
-  fmt.Println(g)
+  // compute ensemble average
+  g.EnsembleAvg()
 }
 ```
