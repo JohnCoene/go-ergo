@@ -1,9 +1,12 @@
 package ergo
 
 import (
+	"fmt"
 	"testing"
 )
 
 func TestPlay(t *testing.T) {
-	Play(100, 100)
+	p := Play(100, 100)
+	avg := p.EnsembleAvg()
+	fmt.Println(avg)
 }

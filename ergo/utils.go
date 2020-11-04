@@ -27,6 +27,12 @@ type Player struct {
 	Steps []Step `json:"steps"`
 }
 
+// Ensemble average of all players over time
+type Ensemble struct {
+	Time   []int     `json:"stepIndex"`
+	Amount []float32 `json:"cash"`
+}
+
 // random number generator
 var seed = rand.NewSource(time.Now().UnixNano())
 var generator = rand.New(seed)
